@@ -1,6 +1,6 @@
-<FR>
+#FR
 
-Résumé
+##Résumé
 - Tous les rôles sont expliqués dans le jeu en maintenant la touche pour s'accroupir - pas besoin de les mémoriser
 - 13 nouveaux rôles secondaires qui peuvent apparaître en plus du rôle principal : vous pouvez être le "Villageois - Hurleur" qui peut augmenter la portée de sa voix une fois par jour, ou encore le "Loup - Alchimiste" qui peut boire les potions en forme de loup pour se soigner...
 - Des rôles principaux "solitaires" qui ne sont ni avec les villageois ni avec les loups : ils gagnent seuls et ont un objectif spécifique
@@ -10,7 +10,7 @@ Résumé
 - Presque tout est configurable (d'ailleurs y a plus trop la place dans l'écran de configuration !)
 - Des bugs sont toujours possibles mais le mod est testé depuis un bon moment sur le Discord officiel
 
-Rôles secondaires (sont donnés en plus du rôle principal - sauf au Chasseur)
+##Rôles secondaires (sont donnés en plus du rôle principal - sauf au Chasseur)
 Hurleur : Une fois par jour,il peut augmenter la portée de sa voix au niveau de celle d'un Géant. De plus, un Loup Hurleur peut hurler pour étourdir TOUS les villageois et les ralentir temporairement (temps de recharge important)
 Alcoolique : Les effets négatifs et neutres des potions sont remplacés par un effet positif aléatoire, et les potions durent plus longtemps sur lui. De plus, un Loup Alcoolique peut prendre et boire les potions en forme de Loup pour se soigner !
 Détective : Une fois par jour, il peut Inspecter quelqu'un pour savoir s'il a tué récemment. De plus, il sait qui est le Chasseur.
@@ -25,7 +25,7 @@ Illusionniste : S'il est Villageois, il peut, une fois par jour, aveugler brièv
 Shérif : En utilisant une balle, il peut tenter de tuer quelqu'un... mais si sa cible est dans le camp des Villageois, c'est lui qui meurt à sa place ! De plus, un Loup Shérif résiste légèrement mieux aux balles du Chasseur - suffisamment pour courir encore quelques secondes.
 Farceur : Il peut échanger sa position avec celle d'un autre joueur choisi au hasard (temps de recharge important). De plus, s'il meurt, il y a une chance sur deux pour qu'un autre joueur aléatoire meurt également.
 
-Nouveaux rôles principaux
+##Nouveaux rôles principaux
 Idiot du Village (remplace un Villageois) : Il gagne uniquement et immédiatement s'il se fait voter pendant la phase de discussion.
 Cannibale (remplace un Villageois) : Il peut manger les cadavres (même ceux de Loups) et il gagne s'il en mange suffisamment. Ils lui donnent l'effet Rassasié et il ne peut pas manger de cadavre tant qu'il est Rassasié.
 Traître (remplace un Villageois) : C'est un humain parfaitement ordinaire... sauf qu'il est secrètement du côté des Loups. Ils ne sait pas qui ils sont, eux non plus, et ils peuvent le tuer.
@@ -34,9 +34,9 @@ Métamorphe (remplace un Loup) : Il se transforme plus rapidement et peut se tra
 
 ---------------------------------
 
-<EN>
+#EN
 
-Summary
+##Summary
 - All roles are explained by holding the Crouch key - no need to remember them!
 - 13 new secondary roles that can be assigned in addition to the main role: you can be a "Villager - Howler", able to raise your voice range once per day, or "Wolf - Alchemist", able to drink potions in Wolf form to heal yourself...
 - "Solo" roles that side neither with the villagers nor the wolves - they have a specific win condition
@@ -46,7 +46,7 @@ Summary
 - Almost everything can be configured (in fact there isn't much room left in the configuration screen!)
 - Bugs may still exist but the mod has been tested for weeks
 
-Secondary roles (given in addition to the main role - Hunter does not get one)
+##Secondary roles (given in addition to the main role - Hunter does not get one)
 Howler: Once per day, he can increase the range of his voice like a Giant. In addition, a Howler Wolf can howl to stun ALL villagers and slow them (long cooldown)
 Alcoholic: Negative and neutral potion effects are replaced with random positive ones, and they last longer on him. In addition an Alcoholic Wolf can take and drink potions while in wolf form to heal!
 Detective: Once per day, he can Inspect someone to know whether they've killed recently. In addition, he knows who the Hunter is.
@@ -61,7 +61,7 @@ Illusionist: If he's a Villager, he can, one per day, blind all transformed Wolv
 Sherif: Using a bullet, he can attempt to kill someone... but if their target is on the Villager side, then the Sherif dies instead! In addition, a Sherif Wolf is slightly resistant to bullets and can still run for a few seconds after being hit by one.
 Trickster: He can switch his position with a random player's (long cooldown). In addition, if he dies, there's a 50% chance that another random player also dies.
 
-New primary roles
+##New primary roles
 Village Idiot (replaces a Villager): He wins if he get's voted out during a meeting.
 Cannibal (replaces a Villager): He can eat corpses (even Wolf corpses) and wins if he eats enough of them. They give him the Satiated effect, and he cannot eat while Satiated.
 Traitor (replaces a Villager): He's a perfectly ordinary human... but he sides with the Wolves. He doesn't know who they are, they don't know who he is either.
