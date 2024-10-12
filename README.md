@@ -1,3 +1,5 @@
+![configuration](Screenshots/Configuration.png)
+
 # FR
 
 ## Résumé
