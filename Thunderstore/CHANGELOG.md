@@ -1,3 +1,35 @@
+## V34
+# FR
+- 1 nouveau sabotage (les portails). Il se déclenche en sabotant 3 portails sur les 4
+- 2 nouveaux rôles de loups : l'Enragé et le Sorcier
+- Le Chasseur ne peut plus recevoir le rôle secondaire Alcoolique (c'est pas plus mal...)
+- L'Espion ne peut plus recevoir un loup à espionner
+- Les joueurs espionnés par l'Espion sont avertis au meeting qu'ils ont été espionnés
+- L'Agent peut être éliminé par un loup non-transformé, même le jour
+- Le Villageois Métabolique se soigne davantage avec la nourriture au lieu de l'effet actuel
+- Le pouvoir du Farceur ne fonctionne désormais qu'avec les joueurs vivants
+- Le Poison du sabotage est un peu plus efficace
+- Le sabotage de la nuit éternelle augmente moins la durée de la nuit mais réduit aussi la faim des Loups
+- Un peu d'équilibrage sur la durée des effets, le temps de recharge des rôles, etc
+
+
+# EN
+- 1 new sabotage (portals). It can be triggered by sabotaging 3 portals out of the 4
+- 2 new Wolf roles: Enraged and Warlock
+- The Hunter can no longer get the Alcoholic secondary role
+- The Spy can no longer receive a Wolf as a spying target
+- Players spied upon by the Spy will be warned during meetings that they were spied upon
+- The Agent can be eliminated by a non-transformed Wolf, even during daytime
+- The Metabolic Villager now gets more health from food, instead of the current effect
+- The Trickster's power now only works on living players
+- Poison from the sabotage is slightly more effective
+- Eternal night sabotage increases night duration less but also reduces the Wolves' hunger rate
+- Some balancing for effect duration, role cooldown, etc
+
+
+
+
+
 ## V31
 # FR
 Nouveautés principales :
@@ -21,7 +53,6 @@ Corrections et petites modifications :
 
 
 # EN
-
 Main changes:
 - SABOTAGE! New mechanic: Wolves in human form can sabotage various objects (wells, church, ruins...) to trigger an effect for the next night! Be careful not to get caught, however...
 - There are currently 2 sabotages: one by poisoning the well in each of the 3 villages, one that's triggered through the church's candles, the pillars at the ruins, and the cauldron in the fishermens' village.
@@ -40,9 +71,6 @@ Other fixes and changes:
 - Fix of a Spy bug where the Spy could have no target on the first day.
 - Bullets can spawn if there's a Sherif but no Hunter.
 - The Engineer's power can no longer create the same item he already has.
-
-
-
 
 
 

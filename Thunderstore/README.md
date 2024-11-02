@@ -4,8 +4,8 @@
 - Tous les rôles sont expliqués dans le jeu en maintenant la touche pour s'accroupir - pas besoin de les mémoriser
 - 15 nouveaux rôles secondaires qui peuvent apparaître en plus du rôle principal : vous pouvez être le "Villageois - Hurleur" qui peut augmenter la portée de sa voix, le "Loup - Alcoolique" qui peut boire les potions en forme de loup pour se soigner...
 - 4 rôles principaux "solitaires" qui ne sont ni avec les villageois ni avec les loups : ils gagnent seuls et ont un objectif spécifique
-- 5 rôles de Loups spéciaux qui remplacent les Loups habituels (comme le Chasseur qui remplacerait un Villageois), ainsi qu'un rôle de Traître (humain mais allié avec les loups)
-- 4 nouveaux effets de potions
+- 7 rôles de Loups spéciaux qui remplacent les Loups habituels (comme le Chasseur qui remplacerait un Villageois), ainsi qu'un rôle de Traître (humain mais allié avec les loups)
+- 4 nouveaux effets de potions : Surdité, Midas, Vampire, Minuscule
 - Une mécanique de Sabotage qui permet aux Loups de se renforcer ou d'affaiblir les Villageois, mais comporte des risques
 - Modifications des pièges qui peuvent désormais être désarmés et ont besoin d'un petit délai pour être posés
 - Une option de vote aléatoire
@@ -17,11 +17,11 @@
 ## Rôles secondaires (sont donnés en plus du rôle principal)
 * La plupart des pouvoirs actifs des rôles secondaires ont un temps de recharge
 
-Hurleur : Il peut augmenter la portée de sa voix au niveau de celle d'un Géant. De plus, un Loup Hurleur peut hurler pour étourdir TOUS les villageois et les ralentir temporairement.
+Hurleur : Il peut augmenter la portée de sa voix au niveau de celle d'un Géant. S'il est en forme de loup, il va étourdir TOUS les villageois et les ralentir temporairement.
 
-Alcoolique : Les effets négatifs et neutres des potions sont remplacés par un effet positif aléatoire, et les potions durent plus longtemps sur lui. De plus, un Loup Alcoolique peut prendre et boire les potions en forme de Loup pour se soigner !
+Alcoolique : Les effets négatifs et neutres des potions sont remplacés par un effet positif aléatoire. Il peut activer son pouvoir pour transformer un gadget (pièges...) en potion. De plus, un Loup Alcoolique peut prendre et boire les potions en forme de Loup pour se soigner !
 
-Détective : Il peut Inspecter quelqu'un pour savoir s'il a tué depuis la dernière nuit. De plus, il sait qui est le Chasseur.
+Détective : Il peut Inspecter quelqu'un pour savoir s'il a tué depuis la dernière nuit, ou (s'il est Loup) pour connaître ses rôles. De plus, il sait qui est le Chasseur.
 
 Coureur : Il peut activer Course à volonté pour obtenir une Célérité de 5 secondes, mais cela fait rapidement baisser sa satiété (sauf s'il est Loup). De plus, un Loup Coureur peut, en forme de loup, Foncer pour aller vraiment vite pendant un court instant.
 
@@ -35,7 +35,7 @@ Furtif : Il peut devenir Furtif pour être invisible et camoufler le bruit de se
 
 Politicien : En journée, il peut forcer un joueur à passer son prochain vote. De plus, s'il est Villageois, son vote compte double et s'il obtient la majorité c'est quelqu'un d'autre au hasard qui meurt à sa place !
 
-Métabolique : S'il est Villageois, sa barre de faim descend plus lentement. S'il est Loup, il peut secrètement maudire quelqu'un pendant la journée, ce qui lui drainera rapidement sa faim tout au long de la prochaine nuit !
+Métabolique : S'il est Villageois, la nourriture le soigne davantage. S'il est Loup, il peut secrètement maudire quelqu'un pendant la journée, ce qui lui drainera rapidement sa faim tout au long de la prochaine nuit !
 
 Illusionniste : S'il est Villageois, il peut aveugler brièvement tous les loups transformés. S'il est Loup, il peut mélanger l'apparence de tous les joueurs pour semer la zizanie !
 
@@ -53,7 +53,7 @@ Idiot du Village : Il gagne uniquement et immédiatement s'il se fait voter pend
 
 Cannibale : Il peut manger les cadavres (même ceux de Loups) et il gagne s'il en mange suffisamment. Ils lui donnent l'effet Rassasié et il ne peut pas manger de cadavre tant qu'il est Rassasié.
 
-Agent : Il gagne en volant la victoire aux Loups, et il sait qui ils sont... mais les Loups savent qu'il y a un Agent, et ils peuvent l'identifier pendant le jeu.
+Agent : Il gagne en volant la victoire aux Loups, et il sait qui ils sont... mais les Loups savent qu'il y a un Agent, et ils peuvent l'identifier et même l'éliminer pendant le jeu.
 
 Espion : Il reçoit des cibles à espionner (nom en rouge dans la liste des joueurs). Il gagne s'il réussit à espionner suffisamment de fois.
 
@@ -67,9 +67,32 @@ Métamorphe : Sa transformation est plus lente mais il peut se transformer à vo
 
 Dupeur : S'il est présent, des illusions auditives de transformation seront créées tout au long de la nuit afin de brouiller les pistes.
 
-Terrifiant : Sa transformation ralentit tous les joueurs proches et les empêche d'activer leur pouvoir secondaire, mais ses victimes lui rendent moins de santé.
+Terrifiant : Sa transformation ralentit tous les joueurs proches et les empêche d'activer leur pouvoir secondaire, mais ses victimes lui rendent moins de santé quand il les tue.
 
-Traqueur : Il est un peu moins rapide que les autres Loups, mais sa vision lui indique la proximité d'un joueur : plus elle est rouge, plus il est proche.
+Traqueur : En forme de Loup, il est un peu moins rapide que les autres Loups, mais sa vision lui indique la proximité d'un joueur : plus elle est rouge, plus il est proche.
+
+Enragé : En forme de Loup, il est plus rapide que les autres Loups mais il a faim plus rapidement et sa vie continue à baisser même quand elle est dans le rouge. Si ella atteint 0, il se détransforme.
+
+Sorcier : Une fois par jour, en journée, il peut secrètement maudire une cible. Celle-ci se transformera en Loup pendant la nuit, mais son rôle ne change pas et elle ne peut pas tuer.
+
+## Sabotages
+- Les objets sabotables indiquent leur nom quand vous les regardez. Si vous êtes Loup ou Traître vous verrez aussi un compteur, par exemple "1/3".
+
+- Seuls les Loups et le Traître peuvent saboter. On peut saboter de jour comme de nuit, mais seulement en forme humaine.
+
+- Chaque sabotage est relié à plusieurs objets du jeu, par exemple le sabotage "Puits empoisonnés" est lié aux puits de chaque village.
+
+- Si suffisamment d'objets ont été sabotés, le sabotage lié se déclenche en début de nuit, et tout le monde est averti.
+
+- Les objets sabotés restent sabotés d'un jour sur l'autre, sauf si leur sabotage lié s'est déclenché pendant la nuit.
+
+- Vous pouvez par exemple saboter 2 puits pendant la première journée, puis le troisième puits pendant la deuxième journée, pour déclencher le sabotage à la nuit suivante.
+
+
+Liste des sabotages et de leurs objets :
+- Puits empoisonnés : les puits de chacun des 3 villages
+- Nuit éternelle : les 3 bougies de l'église, les 4 piliers des ruines, et le chaudron à côté du village des pêcheurs
+- Portails : les 4 portails (il suffit d'en saboter 3)
 
 ---------------------------------
 
@@ -79,8 +102,8 @@ Traqueur : Il est un peu moins rapide que les autres Loups, mais sa vision lui i
 - All roles are explained by holding the Crouch key - no need to remember them!
 - 15 new secondary roles that can be assigned in addition to the main role: you can be a "Villager - Howler", able to raise your voice range once per day, or a "Wolf - Alcoholic", able to drink potions in Wolf form to heal yourself...
 - 4 "Solo" roles that side neither with the villagers nor the wolves - they have a specific win condition
-- 5 Wolf roles that replace a regular Wolf (like the Hunter would replace a Villager), as well as a Traitor role
-- 4 new potion effects
+- 7 Wolf roles that replace a regular Wolf (like the Hunter would replace a Villager), as well as a Traitor role
+- 4 new potion effects: Deaf, Midas, Vampire, Tiny
 - New Sabotage mechanic that allows the Wolves to gain the upper hand in a different wave, but also has risks
 - Trap changes: they can now be disarmed and require a small time to set up
 - Option for anonymous votes
@@ -92,11 +115,11 @@ Traqueur : Il est un peu moins rapide que les autres Loups, mais sa vision lui i
 ## Secondary roles (given in addition to the main role)
 * Most active powers for secondary roles have a cooldown
 
-Howler: He can increase the range of his voice like a Giant. In addition, a Howler Wolf can howl to stun ALL villagers and slow them
+Howler: He can increase the range of his voice like a Giant. If he's in Wolf form, he will instead stun ALL villagers and slow them down.
 
-Alcoholic: Negative and neutral potion effects are replaced with random positive ones, and they last longer on him. In addition an Alcoholic Wolf can take and drink potions while in wolf form to heal!
+Alcoholic: Negative and neutral potion effects are replaced with random positive ones. He can use his power to change a gadget (such as traps) into a potion. In addition, an Alcoholic Wolf can take and drink potions while in Wolf form to heal himself!
 
-Detective: He can Inspect someone to know whether they've killed since the latest night. In addition, he knows who the Hunter is.
+Detective: He can Inspect someone to know whether they've killed since the latest night (or, if he's a Wolf, to know their roles). In addition, he knows who the Hunter is.
 
 Sprinter: He can activate Sprint at will to become faster, but this rapidly drains his hunger bar. In addition, a Sprinter Wolf can, in wolf form, Chase to get really fast for a short moment.
 
@@ -110,7 +133,7 @@ Stealther: He can become Stealthed to be invisible and have silent footsteps, bu
 
 Politician: During daytime, he can force a player to pass for their next vote. In addition, if he's a Villager his vote counts double and if he would be voted out then someone else dies instead!
 
-Metabolic: If he's a Villager, his hunger bar decreases slower. If he's a Wolf, he can secretly mark someone during the day to make them starve during the next night!
+Metabolic: If he's a Villager, any food he loots will heal him for more health. If he's a Wolf, he can secretly mark someone during the day to make them starve during the next night!
 
 Illusionist: If he's a Villager, he can blind all transformed Wolves for a short time. If he's a Wolf, he can shuffle the appearence of all players!
 
@@ -120,7 +143,7 @@ Trickster: He can switch his position with a random player's. In addition, if he
 
 Medium: He's warned everytime a player dies, and he knows the specific Wolf roles. If he's a Wolf, he also knows everyone's secondary role.
 
-Astral: His action range (opening doors, looting items) is increased, including his kill and sabotage range if he's a Wolf. He can also project his mind to analyze the situation from up, like a Giant potion's effect, but this consumes some food.
+Astral: His action range (opening doors, looting items) is increased, including his kill and sabotage range if he's a Wolf. He can also project his mind to analyze the situation from up, like a Giant potion's effect, but this consumes some health.
 
 ## New primary roles
 ### Solo roles (a single one will be assigned)
@@ -128,7 +151,7 @@ Village Idiot: He wins if he get's voted out during a meeting. He gets hungry sl
 
 Cannibal: He can eat corpses (even Wolf corpses) and he wins if he eats enough of them. They give him the Satiated effect, and he cannot eat while Satiated.
 
-Agent: He wins by stealing victory from the Wolves. He knows who they are, but they can also identify him during the game!
+Agent: He wins by stealing victory from the Wolves. He knows who they are, but they can also identify and even eliminate him during the game!
 
 Spy: He gets targets to spy on (red name in the player list) and wins if he manages to Spy enough times.
 
@@ -140,8 +163,30 @@ Necromancer: Once only, during a night, he can resurrect a targeted corpse. This
 
 Shapeshifter: His transformation is slower but he can transform at will during the night. Untransforming does not heal him but he regenerates while in Human form.
 
-Deceiver: If he's present, illusions of transformations will be created through the night, confusing villagers.
+Deceiver: If he's present, illusions of transformations will be created through the night, confusing the villagers.
 
 Dreaded: When he transforms, nearby players are slowed and are unable to activate their secondary role power. His victims heal him less.
 
-Tracker: He's a little slower than other Wolves, but his vision hints him on nearby player proximity: the redder, the closer.
+Tracker: In Wolf form, he's a little slower than other Wolves, but his vision hints him on nearby player proximity: the redder, the closer.
+
+Enraged: In Wolf form, he's faster than other Wolves, but he gets hungry at a faster rate and his health keeps decreasing even when low. If it reaches zero, he untransforms.
+
+Warlock: Once per day during daytime, he can curse someone to transform them into Wolf form during the night. However their actual role does not change and they cannot kill.
+
+## Sabotages
+- Objects that can be sabotaged show their name when you look at them. Si you're a Wolf or Traitor you also see a counter, such as "1/3"
+
+- Only Wolves and Traitors can sabotage. They can sabotage during the day or night, but only in human form.
+
+- Each sabotage is linked to several objects in the game, for example the "Poisoned wells" sabotage is linked to the well of each village.
+
+- If enough objects have been sabotaged, the linked sabotage is triggered when the night starts, and everyone is warned of it.
+
+- Sabotaged objects stay sabotaged between each day, unless their sabotage has been triggered during the night.
+
+- For example you can sabotage 2 wells during the first day, then the third during the second day, and the sabotage will be triggered during the following night.
+
+List of sabotages and their objects:
+- Poisoned wells: the well in each of the 3 villages
+- Eternal night: the candles in the church, the 4 pillars at the ruins, and the cauldron near the fishermens' village
+- Portals: the 4 portals in the map (only need to sabotage 3 of them)
