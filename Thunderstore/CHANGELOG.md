@@ -1,3 +1,57 @@
+## V43
+# FR
+Changements majeurs :
+- Ajout d'un brouillard de nuit qui peut, selon la configuration, fortement limiter la vue pendant la nuit
+- Option pour pouvoir déposer son objet au sol ou l'échanger avec un autre (ne fonctionne pas avec les balles car ce serait trop puissant)
+- Nouvel onglet de configuration qui permet de choisir les potions possibles
+- Nouveau rôle solo : le Scientifique. Son sujet de recherche : les Loup-Garous !
+- Nouveau rôle de loup : le Possesseur
+- Refonte complète du rôle solo Agent, qui donne un nouveau sens à "agent double"
+- Refonte complète du rôle de loup Métamorphe, qui peut désormais se déguiser en d'autres joueurs
+- Refonte complète du rôle secondaire Téléporteur
+- 3 nouveaux effets de potion : Assassin, Hanté, Myopie
+- Le rôle secondaire Furtif, pour un Loup, n'a plus sa mécanique passive mais son pouvoir actif le rend complètement indétectable (pas d'effet de peur)
+- Le sabotage de la nuit éternelle n'utilise plus les bougies de l'église mais les bûches qui sont à côté
+
+Corrections et autres changements :
+- Le rôle secondaire Hurleur ralentit les joueurs proches quand il parle avec son pouvoir activé (en forme humaine)
+- Le sabotage des puits empoisonnés fait perdre moins de santé mais ralentit aussi légèrement les victimes
+- Le sabotage de la nuit éternelle augmente moins la durée de la nuit mais réduit aussi la consommation de nourriture des loups
+- La potion de Vampire peut désormais vampiriser les loups transformés
+- Les loups ressuscités par le Nécromancien meurent en une seule balle de chasseur
+- Les portails sabotés ne peuvent plus être utilisés par les loups en forme humaine
+- Le Cannibale reçoit un effet différent de Rassasié, qui dure un peu moins longtemps
+- La progression d'objectif des rôles solo (cannibale, espion, scientifique) est indiquée sans avoir à afficher les explications
+
+
+# EN
+Major changes: 
+- Added a configurable night fog that can severely limit vision during the night
+- Option to drop your current item (does not work with bullets - it would be too strong)
+- New configuration tab to choose which potion effects can be in the game
+- New solo role: the Scientist. His research subject: Werewolves!
+- New Wolf role: the Possessor
+- Complete rework of solo role Agent, giving a new meaning to "double agent"
+- Complete rework of the Shapeshifter wolf role Shapeshifter, he can now disguise himself as another player
+- Complete rework of the Teleporter secondary role
+- 3 new potion effects: Assassin, Haunted, Nearsight
+- The secondary role Stealther, for a Wolf, no longer has its passive mechanics but its active power now makes the Wolf completely undetectable (no scary effect)
+- The eternal night sabotage no longer uses the church's candles but the wood pile next to it instead
+
+Fixes and other changes: 
+- The secondary role Howler, in human form, now slows down nearby players as long as he talks during its active power
+- The poisoned wells sabotage causes less health loss but also slows down players slightly
+- The eternal night sabotage no longer increases night duration as much, but now also reduces Wolf health reduction
+- The Vampire potion effect can no affect wolves in Wolf form
+- Wolves resurrected by the Necromancer are killed in a single hunter bullet
+- Sabotaged portals can no longer be used by Wolves in human form
+- The Cannibal now gets a unique effect when eating corpses, and it lasts a little less than Satiated
+- Solo role objective progression (cannibal, spy, scientist) is now tracked without having to show the role details
+
+
+
+
+
 ## V34
 # FR
 - 1 nouveau sabotage (les portails). Il se déclenche en sabotant 3 portails sur les 4
