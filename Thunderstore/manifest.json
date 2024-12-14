@@ -1,6 +1,6 @@
 {
     "name": "LycansNewRoles",
-    "version_number": "0.43.0",
+    "version_number": "0.55.0",
     "website_url": "https://github.com/Nales54/LycansNewRoles",
     "description": "Ajoute de nouveaux rôles et diverses mécaniques (tout est configurable) / Adds many new roles and a few other features (all configurable)",
     "dependencies": ["BepInEx-BepInExPack-5.4.2100"]

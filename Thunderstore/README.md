@@ -1,88 +1,58 @@
 # FR
+--- Le mod est compatible avec la version 0.15.3 du jeu ---
+
+![Configuration](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/Configuration.png)
 
 ## Résumé
 - Tous les rôles sont expliqués dans le jeu en maintenant la touche pour s'accroupir - pas besoin de les mémoriser
 - 15 rôles secondaires qui peuvent apparaître en plus du rôle principal : vous pouvez être le "Villageois - Hurleur" qui peut augmenter la portée de sa voix, le "Loup - Alcoolique" qui peut boire les potions en forme de loup pour se soigner...
 - 5 rôles "solo" qui ne sont ni avec les villageois ni avec les loups : ils gagnent seuls et ont un objectif spécifique
-- 8 rôles de Loups spéciaux qui remplacent les Loups habituels (comme le Chasseur qui remplacerait un Villageois), ainsi qu'un rôle de Traître (humain mais allié avec les loups)
+- 8 pouvoirs de Loups qu'ils peuvent obtenir en plus du rôle secondaire, ainsi qu'un rôle de Traître (humain mais allié avec les loups)
 - 7 nouveaux effets de potions : Midas, Assassin, Minuscule, Vampire, Hanté, Surdité, Myopie
+- Augmentation du maximum de joueurs à 15, possibilité de mettre 3 loups et jusqu'à 3000 de récolte à atteindre...
 - Une mécanique de Sabotage qui permet aux Loups de se renforcer ou d'affaiblir les Villageois, mais attention de ne pas se faire prendre !
 - Une option de brouillard de nuit pour limiter la vision pendant la nuit
 - Une option pour pouvoir désarmer les pièges et leur donner un petit délai de pose
 - Une option de vote aléatoire
-- Une option pour choisir les effets de potions possibles
-- Une option pour pouvoir poser son objet au sol ou le remplacer par un autre (ne fonctionne pas avec les balles pour des raisons d'équilibrage)
-- Une option de mode alternatif (nom de code "Amogus")
+- Une option pour choisir les effets de potions possibles et les gadgets disponibles
+- Une option pour pouvoir poser son objet au sol (ne fonctionne pas avec les balles pour des raisons d'équilibrage)
 - Et quelques améliorations diverses : les gens qui passent le vote s'accroupissent, la voix des loups est modifiée aléatoirement...
-- Presque tout est configurable
+- Presque tout est configurable : vous pouvez ajouter les nouveautés progressivement ou retirer ce qui ne vous plait pas
 - Des bugs sont toujours possibles mais le mod est testé depuis un bon moment sur le Discord officiel
 
-## Rôles secondaires (ils sont donnés en plus du rôle principal)
-* La plupart des pouvoirs actifs des rôles secondaires ont un temps de recharge
+Merci à Timaki pour les images avec les descriptions !
 
-Hurleur : En forme humaine, il peut augmenter la portée de sa voix et ralentir les joueurs proches tant qu'il parle. S'il est en forme de loup, il va étourdir TOUS les villageois et les ralentir temporairement.
+## Rôles secondaires
+Les rôles secondaires sont donnés en plus du rôle principal, par exemple "Villageois - Hurleur". La plupart de leurs pouvoirs actifs ont un temps de recharge.
 
-Alcoolique : Les effets des potions négatives et neutres sont remplacés par un effet positif aléatoire. Il peut activer son pouvoir pour transformer un gadget (pièges...) en potion. De plus, un Loup Alcoolique peut prendre et boire les potions en forme de Loup pour se soigner !
+Ils ne sont pas spécifiques aux villageois ni aux loups : sauf exception, n'importe quel rôle secondaire peut être attribué à n'importe qui.
 
-Détective : Il peut Inspecter quelqu'un pour savoir s'il a tué depuis le début de la dernière nuit, ou (s'il est Loup) pour connaître ses rôles. De plus, il sait qui est le Chasseur.
+![Rôles secondaires](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/roles_secondaires.png)
 
-Coureur : Il peut activer Course à volonté pour obtenir une Célérité de 5 secondes, mais cela fait rapidement baisser sa satiété (sauf s'il est Loup). De plus, un Loup Coureur peut, en forme de loup, Foncer pour aller vraiment vite pendant un court instant.
 
-Infecté : Si c'est un Villageois et qu'il est tué par un Loup, il force ce Loup à se détransformer après un délai (le Loup est averti). S'il est Loup, il peut, en forme de loup, Infecter les villageois proches (même à travers les murs) pour les faire flatuler et les repérer plus facilement !
+## Rôles solo
+Les rôles solo ne sont ni dans le camp des villageois, ni dans le camp des loups : ils gagnent seuls et ont un objectif spécifique.
 
-Téléporteur : Il peut placer une balise invisible à sa position actuelle, puis utiliser son pouvoir pour s'y téléporter après un délai de 3 secondes.
+1 seul rôle solo sera glissé parmi les joueurs.
 
-Ingénieur : Il peut créer un gadget aléatoire. De plus, les pièges l'immobilisent moins longtemps et il les désarme plus vite, il casse les verrous plus vite, et les fumigènes ont une zone réduite pour lui.
+![Rôles solo](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/solo1.png)
 
-Furtif : En forme humaine, il peut devenir Furtif pour être invisible et camoufler le bruit de ses pas, mais dans cet état il ne peut pas courir. En forme de Loup, il peut devenir complètement indétectable (pas d'effet de peur pour les autres joueurs).
 
-Politicien : En journée, il peut forcer un joueur à passer son prochain vote. De plus, s'il est Villageois, son vote compte double et s'il obtient la majorité c'est quelqu'un d'autre au hasard qui meurt à sa place !
+## Traître
+Le traître est humain et ne peut donc pas se transformer, mais il est du côté des loups. Il peut aussi recevoir un pouvoir de loup.
 
-Métabolique : S'il est Villageois, la nourriture le soigne davantage. S'il est Loup, il peut secrètement maudire quelqu'un pendant la journée, ce qui lui drainera rapidement sa faim tout au long de la prochaine nuit.
+![Traître](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/traitre.png)
 
-Illusionniste : S'il est Villageois, il peut aveugler brièvement tous les loups transformés. S'il est Loup, il peut mélanger l'apparence de tous les joueurs pour semer la zizanie !
 
-Shérif : En utilisant une balle, il peut tenter de tuer quelqu'un... mais si sa cible est dans le camp des Villageois, c'est lui qui meurt à sa place ! De plus, un Loup Shérif résiste légèrement mieux aux balles du Chasseur - suffisamment pour courir encore quelques secondes.
+## Pouvoirs de loups
+En plus du rôle secondaire, les loups et le traître peuvent recevoir un pouvoir de loup. Un loup peut ainsi être "Loup Sorcier - Téléporteur" : Sorcier est son pouvoir, et Téléporteur est son rôle secondaire.
 
-Farceur : Il peut échanger sa position avec celle d'un autre joueur choisi au hasard. De plus, s'il meurt, il y a une chance pour qu'un autre joueur aléatoire meurt également.
+![Pouvoirs](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/roles_loups1.png)
 
-Voyant : Il est averti chaque fois qu'un joueur meurt, et il connait les rôles spécifiques des Loups (Métamorphe, Dupeur, etc). Si c'est un Loup, il connait aussi le rôle secondaire de tout le monde.
 
-Astral : Sa portée d'action (ouvrir les portes, ramasser les objets) est augmentée, y compris pour tuer et saboter s'il est Loup. Il peut aussi projeter son esprit pour voir la situation de plus haut, comme l'effet de la potion de Géant, mais cela consomme un peu sa nourriture.
+## Nouveaux effets de potions
+![Potions](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/potions1.png)
 
-## Nouveaux rôles principaux
-### Rôles solitaires (1 seul sera glissé parmi les joueurs)
-Idiot du Village : Il gagne uniquement et immédiatement s'il se fait voter pendant la phase de discussion. Il a faim plus lentement, mais rester inactif trop longtemps lui donne faim (effet Ennui).
-- Pour éviter l'Ennui, il doit être proche de quelqu'un, avoir mangé récemment, avoir un loup à proximité, ou se déplacer suffisamment.
-
-Cannibale : Il peut manger les cadavres (même ceux de Loups) et il gagne s'il en mange suffisamment. Ils lui donnent l'effet Repu et il ne peut pas manger d'autre cadavre tant qu'il est Repu.
-
-Agent : Si ce rôle solo est choisi, il y aura deux Agents. Ils peuvent s'identifier mutuellement et peuvent aussi identifier les Loups. Chaque Agent peut éliminer l'autre au contact. Il gagne en faisant partie des 2 ou 3 derniers survivants dans un meeting, à condition que l'autre Agent soit mort.
-
-Espion : Il reçoit des cibles à espionner (nom en rouge dans la liste des joueurs). Il gagne s'il réussit à espionner suffisamment de fois.
-
-Scientifique : Il gagne en obtenant 100% de Recherche. Sa Recherche augmente en étant à proximité d'un Loup transformé, ou en étant témoin d'un kill ou d'une transformation. Plus efficace s'il est proche et que le loup est visible et n'est pas affamé.
-
-### Rôle spécial
-Traître : C'est un humain parfaitement ordinaire... sauf qu'il est secrètement du côté des Loups.
-- Le Traître est recommandé pour les parties à moins de 8 joueurs afin d'équilibrer les parties avec 1 seul Loup.
-
-### Rôles de Loups
-Nécromancien : Une fois par partie, pendant la nuit, il peut ressusciter un cadavre ciblé. Le joueur devient un Loup qui se transforme immédiatement et peut tuer, mais il est muet et il meurt à la fin de la nuit.
-
-Métamorphe : Il peut librement choisir un joueur et prendre son apparence après un délai de 2 secondes. Il peut aussi utiliser ce pouvoir pour se détransformer et se déguiser en même temps.
-
-Dupeur : S'il est présent, des illusions auditives de transformation seront créées tout au long de la nuit afin de brouiller les pistes.
-
-Terrifiant : Sa transformation ralentit tous les joueurs proches et les empêche d'activer leur pouvoir secondaire, mais ses victimes lui rendent moins de santé quand il les tue.
-
-Traqueur : En forme de Loup, il est un peu moins rapide que les autres Loups, mais sa vision lui indique la proximité du joueur le plus proche : plus elle est rouge, plus il est proche.
-
-Enragé : En forme de Loup, il est plus rapide que les autres Loups mais il a faim plus rapidement et sa vie continue à baisser même quand elle est dans le rouge. Si elle atteint 0, il se détransforme.
-
-Sorcier : Une fois par jour, en journée, il peut secrètement maudire une cible. Celle-ci se transformera en Loup pendant la nuit, mais son rôle ne change pas et elle ne peut pas tuer.
-
-Possesseur : Il peut librement choisir un joueur et voir à travers ses yeux. La cible est avertie qu'elle se fait Posséder, et elle ne peut pas courir.
 
 ## Sabotages
 - Les objets sabotables indiquent leur nom quand vous les regardez. Si vous êtes Loup ou Traître vous verrez aussi un compteur, par exemple "1/3".
@@ -97,32 +67,18 @@ Possesseur : Il peut librement choisir un joueur et voir à travers ses yeux. La
 
 - Vous pouvez par exemple saboter 2 puits pendant la première journée, puis le troisième puits pendant la deuxième journée, pour déclencher le sabotage à la deuxième nuit.
 
+![Sabotages map 1](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/sabotage1.png)
 
-### Liste des sabotages et de leurs objets et effet :
-- Puits empoisonnés : les puits de chacun des 3 villages. Diminue modérément la santé des joueurs et les ralentit.
+![Sabotages map 2](https://nales-lsd.s3.eu-west-1.amazonaws.com/Lycans/Screenshots/sabotage2.png)
 
-- Nuit éternelle : les bûches à côté de l'église, les 4 piliers des ruines, et le chaudron à côté du village des pêcheurs. Augmente la durée de la nuit et réduit la consommation de faim des Loups.
 
-- Portails : les 4 portails (mais il suffit d'en saboter 3). Diminue fortement le temps de recharge des portails et les rend utilisables uniquement par les Loups transformés.
-
-## Nouveaux effets de potion
-- Midas (positive) : multiplie par 4 la valeur de récolte des objets récupérés.
-
-- Assassin (positive) : sous cet effet, vous pouvez tuer un joueur en forme humaine ou un Loup blessé, ou paralyser un Loup qui n'est pas blessé. L'effet disparait alors.
-
-- Minuscule (neutre) : vous devenez minuscule. Pratique pour échapper à un Loup, mais il y a un certain risque logique...
-
-- Vampire (neutre) : vous volez progressivement la santé de tous les joueurs dans un large rayon.
-
-- Hanté (neutre) : des effets au hasard et souvent inattendus !
-
-- Surdité (négative) : vous n'entendez absolument plus rien. Même pas la présence des loups...
-
-- Myopie (négative) : votre vision est fortement réduite par du brouillard.
+## Nouveaux objets
+- Parchemin : il est associé à un effet négatif aléatoire. Visez un joueur et utilisez l'objet (avec la touche habituelle) pour lui infliger l'effet !
 
 ---------------------------------
 
 # EN
+--- The mod is compatible with version 0.15.3 of the game ---
 
 ## Summary
 - All roles are explained by holding the Crouch key - no need to remember them!
@@ -130,12 +86,13 @@ Possesseur : Il peut librement choisir un joueur et voir à travers ses yeux. La
 - 5 "Solo" roles that side neither with the villagers nor the wolves - they have a specific win condition
 - 8 Wolf roles that replace a regular Wolf (like the Hunter would replace a Villager), as well as a Traitor role
 - 7 new potion effects: Midas, Assassin, Tiny, Vampire, Haunted, Deaf, Nearsight
+- Players cap increased to 15, and option to have 3 Wolves and increase the looting objective to 3000
 - New Sabotage mechanic that allows the Wolves to gain the upper hand in a different wave, but make sure you don't get caught!
 - A night fog option to limit sight during the night
 - A trap option to make them disarmable and require a small time to set up
 - An option for anonymous votes
-- An option to choose which potion effects can be chosen
-- An option to drop your current item or exchange it with another (does not work with bullets for balancing reasons)
+- An option to choose which potion effects can be chosen and which gadgets can appear
+- An option to drop your current item (does not work with bullets for balancing reasons)
 - An option for alternate gamemode (codename "Amogus")
 - Various other improvements: players now crouch when passing their vote, wolf form voice is changed randomly...
 - Almost everything can be configured
@@ -193,11 +150,9 @@ Traitor: He's a perfectly ordinary human... but he sides with the Wolves.
 ### Wolf roles
 Necromancer: Once only, during a night, he can resurrect a targeted corpse. This player becomes a Wolf who transforms immediately, but he's mute and dies when the night ends.
 
-Shapeshifter: He can freely choose a player and disguise himself as them. He can also do this while transformed to untransform directly into this appearence.
+Shapeshifter: He can freely choose a player and disguise himself as them. His human form is changed until the next meeting.
 
 Deceiver: If he's present, illusions of transformations will be created through the night, confusing the villagers.
-
-Dreaded: When he transforms, nearby players are slowed and are unable to activate their secondary role power. His victims heal him less.
 
 Tracker: In Wolf form, he's a little slower than other Wolves, but his vision hints him on nearby player proximity: the redder, the closer.
 
@@ -206,6 +161,8 @@ Enraged: In Wolf form, he's faster than other Wolves, but he gets hungry at a fa
 Warlock: Once per day during daytime, he can curse someone to transform them into Wolf form during the night. However their actual role does not change and they cannot kill.
 
 Possessor: He can freely choose a player and see through their eyes. The target is warned of this, and they cannot run while Possessed.
+
+Saboteur: He can see items (gadgets and potions) more easily, and he can secretly sabotage them while they're on the ground or held by someone. A player attempting to use a sabotaged item will have a nasty surprise!
 
 ## Sabotages
 - Objects that can be sabotaged show their name when you look at them. Si you're a Wolf or Traitor you also see a counter, such as "1/3"
@@ -221,9 +178,14 @@ Possessor: He can freely choose a player and see through their eyes. The target 
 - For example you can sabotage 2 wells during the first day, then the third during the second day, and the sabotage will be triggered during the following night.
 
 ### List of sabotages and their objects and effects:
+Map 1 (villages)
 - Poisoned wells: the well in each of the 3 villages. Slowly reduces health and slightly slows down all players.
 - Eternal night: the wood pile near the church, the 4 pillars at the ruins, and the cauldron near the fishermens' village. Increases night length and reduces Wolf hunger.
 - Portals: the 4 portals in the map (only need to sabotage 3 of them). Greatly reduces Portal cooldown and only allows transformed Wolves to use them.
+
+Map 2 (castle)
+- Poisoned wells: the two wells in town, the well behind the castle, and the fountain in front of the castle. Slowly reduces health and slightly slows down all players.
+- Cursed night: the book in the town church, the notice board next to the spawn, and the book in the room at the top of the castle. Increases fog and casts negative effects on random non-transformed players.
 
 ## New potion effects
 - Midas (positive): multiplies loot value by 4.
@@ -239,3 +201,6 @@ Possessor: He can freely choose a player and see through their eyes. The target 
 - Deaf (negative): you no longer hear anything, not even the presence of Wolves...
 
 - Nearsight (negative): your vision is heavily reduced by fog.
+
+## New items
+- Scroll: it is linked to a random negative effect. Aim at a player and use it (with the usual key) to inflict them with that effect!

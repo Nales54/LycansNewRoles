@@ -1,3 +1,92 @@
+## V55
+
+# FR
+- Si l'option "Vérifier installation du mod" est cochée, le mod vérifie que tout le monde a installé le mod quand on lance une partie
+- Correction d'un bug du sabotage de la nuit éternelle qui rendait la nuit un peu trop éternelle
+- Léger ajustement de la quantité de nourriture générée, notamment pour les parties à plus de 12
+- Si vous avez un parchemin, cibler un joueur vous indique l'effet du parchemin
+- Correction d'un bug de brouillard et de l'effet Myopie si le brouillard est à 0%
+- Correction d'un bug qui rendait la victime du Sorcier intuable par le Chasseur
+
+# EN
+- If the "Check mod install" option checked, the game will warn the host if someone doesn't have the mod when launching the game
+- Fixed a bug with the eternal night sabotage, it was making the night a little too eternal
+- Slightly adjusted the amount of food generated, espcially for games with more than 12 players
+- If you're holding a scroll, targeting a player will show you the scroll's effect
+- Fixed a fog bug with the Nearsighted effect if fog configuration is 0%
+- Fixed a bug that made the Warlock's victim unable to be killed by the Hunter
+
+
+
+
+
+## V52
+# FR
+- Correction d'un bug quand le nombre de joueurs dépasse 10
+- Saboteur : les deux touches d'interaction permettent de piéger l'objet du joueur ciblé
+- Le Traître ne peut plus être détective, illusioniste, infecté ou shérif
+
+# EN
+- Fixed an issue with more than 10 players
+- Saboteur: both interaction keys can be used to trap the target's item
+- Traitor can no longer be detective, illusionist, infected or sherif
+
+
+
+## V51
+# FR
+- Augmentation du maximum de joueurs (jusqu'à 15)
+- Ajout d'une barre de progression pour certaines actions (saboter, se téléporter, désarmer un piège...)
+- Le Traître peut désormais aussi recevoir un pouvoir principal (Saboteur, Métamorphe, etc)
+
+# EN
+- Players cap increased (up to 15)
+- Added a progression bar for certain actions (sabotage, teleport, disarm trap...)
+- The Traitor can now also get a main power (Saboteur, Shapeshifter, etc)
+
+
+
+## V49
+# FR
+- Nouvel objet ! "Moi aussi, avec des parchemins, j'balance des sorts..."
+- Nouvel onglet d'options pour choisir les objets qui peuvent apparaître
+- Nouveau sabotage sur la seconde map : la nuit maudite
+* Les objets à saboter sont : le livre dans l'église de la ville, le grand panneau à côté du spawn, et le livre dans la chambre tout en haut du château
+- Correction d'un bug de connexion
+- Potion Vampire : elle a un rayon d'effet beaucoup plus faible sur la seconde carte
+- Les loups sont détectés de moins loin sur la seconde carte
+- Le brouillard est retiré quand la partie se termine
+
+# EN
+- New item! "With scrolls, I too can cast spells..."
+- New option tab to choose which items can appear
+- New sabotage on the second map: cursed night
+* Items to sabotage are: the book in the town church, the notice board next to the spawn, and the book in the room at the top of the castle
+- Connection bug fix
+- Vampire potion: radius greatly reduced on the second map
+- Wolf detection radius is shorter on the second map
+- Fog is removed when a game is finished
+
+
+
+## V47
+# FR
+- Compatible avec la version 0.15
+- Loup Terrifiant : remplacé par le Loup Saboteur
+- Scientifique : réduction de la vitesse max de la recherche
+- Espion : espionner est instantané et l'objectif d'espionnages est légèrement diminué
+- Téléporteur : ne peut plus placer sa balise tant que son pouvoir est en recharge ; réduction du temps de recharge
+
+# EN
+Changelog :
+- Compatible with version 0.15
+- Dreaded Wolf: replaced with Saboteur Wolf
+- Scientist: reduced maximum research speed
+- Spy: spying is now instant and the spying objective is slightly lower
+- Teleporter: can no longer place a beacon while his power is on cooldown; cooldown reduced
+
+
+
 ## V43
 # FR
 Changements majeurs :
